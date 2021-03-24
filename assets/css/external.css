@@ -1,0 +1,679 @@
+/*
+All right reserved
+##     ## ##  ######
+##     ## ##  ##   ##
+##     ## ##  ######
+ ##   ##  ##  ##
+   ###    ##  ##
+vipcriativo.com
+vipcriativo.web@gmail.com
+*/
+
+* {
+    font-size: 14px;
+    cursor:url(../images/ncsoft/l2.cur),auto;
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-Regular.otf) !important;
+}
+
+body {
+    height: 2220px !important;
+    background: url(../images/layout/bg-center.jpg) no-repeat center 409px, url(../images/layout/bg-top.jpg) no-repeat center top -140.5px, url(../images/layout/bg-footer.jpg) no-repeat center bottom 145px #0d0e10 !important;
+    word-wrap: break-word !important;
+    min-width: 1140px !important;
+}
+
+.main {
+    width: 1000px !important;
+    height: 100%;
+    margin: auto;
+    /*overflow: hidden;*/
+    display: flex;
+    flex-direction: row;
+    /* BG Debug*/
+    /*background: rgba(255, 35, 0, 0.65) url("../images/layout/main.png") no-repeat center;*/
+    background: url("../images/layout/main.png") no-repeat center;
+}
+
+/* Str create by vipcriativo.web@gmail.com Author By Kabaite*/
+.left-col {
+    /* BG Debug*/
+    /*background-color: rgba(115, 25, 255, 0.45);*/
+    width: 280px;
+    height: 100%;
+
+}
+
+.right-col {
+    /* BG Debug*/
+    /*background-color: rgba(64, 255, 67, 0.52);*/
+    width: 280px;
+    height: 100%;
+
+}
+
+.center-col {
+    /* BG Debug*/
+    /*background-color: rgba(58, 58, 58, 0.34);*/
+    width: 440px;
+    height: 100%;
+    padding: 0;
+
+}
+
+/*End*/
+
+.panel-title {
+    width: 280px;
+    background-color: #1e1e1d;
+    height: 50px;
+    margin-top: 403px;
+}
+
+.border-tag-left1 {
+    background: url(../images/layout/absolute/border-tag-left.png) no-repeat;
+    margin-left: -14px;
+}
+
+.panel-title div p {
+    font-family: Cinzel;
+    line-height: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.login {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.login form input {
+    display: block;
+    width: 250px;
+    height: 32px;
+    background-color: #dcdbdb !important;
+
+}
+
+.input-login {
+    width: 250px !important;
+    height: 32px;
+    margin-top: 3px;
+}
+
+
+.btn-login {
+    height: 32px !important;
+    line-height: 10px !important;
+    cursor:url(../images/ncsoft/l22.cur),auto !important;
+}
+
+.recover-password {
+    background-color: #424341;
+    height: 22px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 10px;
+    line-height: 20px;
+    text-align: center !important;
+}
+
+.recover-password a {
+
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    margin-top: 60px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    width: 180px;
+    height: 32px;
+    border-radius: 3px;
+    margin: 3px auto;
+    cursor:url(../images/ncsoft/l22.cur),auto;
+    background-image: linear-gradient(#343434, #000000);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 32px;
+}
+
+.menu ul li:hover {
+    background-image: linear-gradient(#5a5a5a, #000000);
+}
+
+.menu ul li:active {
+    opacity: 0.8;
+}
+
+.gallery-title {
+    width: 280px;
+    background-color: #1e1e1d;
+    height: 50px;
+    margin-top: 60px;
+}
+
+.gallery-title div p {
+    font-family: Cinzel;
+    line-height: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.border-tag-left2 {
+    background: url(../images/layout/absolute/border-tag-left.png) no-repeat;
+    margin-left: -14px;
+}
+
+.gallery {
+    margin-top: 10px;
+}
+
+.gallery ul {
+    list-style: none;
+
+}
+
+.gallery ul li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 3px;
+    border: solid 3px #e1e1e1;
+    overflow: hidden;
+
+}
+
+/*center*/
+.download-main {
+    margin-top: 467px;
+    text-align: center;
+
+}
+
+.download-main h3 {
+    font-family: Cinzel;
+    font-size: 18px;
+
+}
+
+/*Right*/
+.status {
+    margin-top: 440px;
+}
+
+.status ul {
+    list-style: none;
+}
+
+.status ul li {
+    display: inline-block;
+}
+
+.rate {
+    background: url(../../assets/images/layout/absolute/rate.png) no-repeat;
+    margin-top: 40px;
+    height: 37px;
+}
+
+.rate p {
+    color: white;
+    word-wrap: break-word !important;
+    margin-left: 17px;
+    line-height: 37px;
+}
+
+.top-server {
+    margin: auto;
+    width: 210px;
+}
+
+.top-server h3 {
+    font-family: Cinzel;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.top-server ul {
+    text-align: justify;
+    list-style: none;
+}
+
+.rank-title {
+    width: 280px;
+    background-color: #1e1e1d;
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+.rank-title div p {
+    font-family: Cinzel;
+    line-height: 50px;
+    color: white;
+    font-size: 16px;
+}
+
+.border-tag-right1 {
+    background: url(../images/layout/absolute/border-tag-right.png) no-repeat right;
+    margin-right: -14px;
+
+}
+
+.rank {
+    text-align: center;
+    background-color: #7a7a7a;
+    margin-top: 10px;
+}
+
+.rank ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.rank ul li {
+    display: inline-block;
+    margin-top: 1px;
+
+}
+
+.rank ul li {
+    background: url(../images/layout/absolute/rank.png) no-repeat right;
+    width: 287px;
+
+}
+
+.rank ul li small {
+    color: white;
+    font-size: 10px;
+}
+
+.rank ul li marquee {
+    width: 100%;
+    color: white;
+    font-size: 10px;
+}
+
+.rank ul li marquee small {
+    font-size: 10px;
+}
+
+.rank ul li small small {
+    font-size: 10px;
+}
+
+/* center */
+.slider-vipcriativo {
+    background-color: #4946ff;
+    margin: 72px auto;
+    width: 435px;
+    overflow: hidden;
+}
+
+.circle {
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50%;
+    /*Debug*/
+    /*background-color: rgba(104, 114, 44, 0.84) !important;*/
+
+}
+
+ol.carousel-indicators {
+    z-index: 99;
+    bottom: 10% !important;
+    left: 55%;
+    width: 30%;
+
+}
+
+.target {
+    width: 8px;
+    height: 8px;
+    background-color: #149b0a;
+    margin: 6px auto;
+    border-radius: 50%;
+}
+
+.slider-vipcriativo-com {
+    width: 460px !important;
+
+}
+
+.info-slider {
+    width: 100%;
+    height: 30px;
+    background-color: #181717;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    overflow: hidden;
+    color: white;
+    line-height: 30px;
+}
+
+/* dynamic */
+.dynamic {
+    margin-top: 40px;
+}
+
+.notice-title h3 {
+    text-align: justify;
+    font-family: Cinzel;
+    margin-left: 35px;
+    color: white;
+    margin-top: -50px;
+}
+
+.notice {
+    margin: auto;
+    position: relative;
+    width: 373px;
+    height: 140px;
+    background: url(../images/layout/border-notice-top.png) no-repeat top, url(../images/layout/border-notice-top.png) no-repeat bottom #f9f9f9;
+}
+
+.notice:before {
+    content: '';
+    display: block;
+    height: 145px;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    right: 32px;
+    top: -2px;
+
+    background: url(../images/layout/border-notice-left.png) no-repeat left top -2px;
+}
+
+.notice:after {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 145px;
+    position: absolute;
+    z-index: 99;
+    left: 32px;
+    top: -2px;
+    background: url(../images/layout/border-notice-right.png) no-repeat right top;
+}
+
+.notice small {
+
+    text-align: center;
+    display: inline-block; /*Allows Text top x px*/
+    font-size: 13px;
+    width: 100%;
+}
+
+.notice-text {
+    margin-top: 7px;
+    height: 145px;
+    overflow: hidden;
+
+}
+
+.video {
+    text-align: center;
+    margin-top: 75px;
+    overflow: hidden;
+    height: 760px !important; /* This ok */
+}
+
+.pagination-notice {
+    margin: -10px 5px auto;
+
+}
+
+/* Raid*/
+.raid {
+    margin-left: -3px;
+    margin-top: -60px;
+}
+
+.raid-title {
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+    margin-left: 10px;
+
+}
+
+.list-raid {
+    height: 20px;
+    width: 99%;
+    border-bottom: 1px solid #212120;
+    margin-top: 1px;
+    margin-left: 1px;
+
+}
+
+.contact p {
+    font-family: Verdana, serif;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact ul li {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.contact ul li:hover {
+    background-color: #ff4546;
+}
+
+.contact .title {
+    width: 427px;
+    background-color: #ff6c00;
+    height: 30px;
+    margin-left: 7px;
+}
+
+.contact .title h3 {
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.contact .bottom {
+    margin-left: 7px;
+}
+
+.info {
+    height: 950px;
+    overflow: hidden;
+    margin-top: -60px !important;
+}
+
+.info .text {
+    color: #8b7768;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.info .info-title {
+    color: white;
+    margin-left: 5px;
+}
+
+.info .all {
+    background: url(../images/layout/absolute/info-all.png) no-repeat left;
+    width: 180px;
+    height: 56px;
+    margin-left: 5px;
+}
+
+.info .enchant {
+    background: url(../images/layout/absolute/info-enchant.png) no-repeat left;
+    width: 180px;
+    height: 56px;
+    margin-left: 5px;
+}
+
+.info .item {
+    background: url(../images/layout/absolute/info-item.png) no-repeat left;
+    width: 180px;
+    height: 56px;
+    margin-left: 5px;
+}
+
+.download .title{
+    margin-left: 5px;
+    color: white;
+}
+
+.download img{
+    margin-left: -3px;
+}
+
+.download .client{
+    background: url(../images/layout/download-title.png) no-repeat left;
+    width: 180px;
+    height: 56px;
+    margin-left: 5px;
+
+    position: relative;
+}
+
+.download .patch{
+    background: url(../images/layout/download-title.png) no-repeat left;
+    width: 180px;
+    height: 56px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.download .text ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.download .text ul li a{
+    text-decoration: none;
+    color: #ffbb7c;
+}
+
+.download .text ul li img{
+    visibility: hidden;
+}
+
+.download .text ul li:hover img{
+    visibility: visible;
+}
+
+.download .text ul{
+    list-style: none;
+}
+.client h6{
+    position: absolute;
+    top: 63%;
+    font-size: 12px;
+    font-family: Arial, Sans-Serif;
+    margin-left: 15px;
+}
+
+
+.patch h6{
+    position: absolute;
+    top: 63%;
+    font-size: 12px;
+    font-family: Arial, Sans-Serif;
+    margin-left: 15px;
+}
+
+.separator{
+   width: 100%;
+}
+
+/*captcha*/
+
+
+.capt{
+    background-color: rgba(48, 48, 47, 0.35);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0 !important;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.btn-submit-public{
+    width: 100%;
+    height: 50px;
+}
+
+#input-captcha{
+    margin: 20% auto;
+    width: 350px;
+    height: 170px;
+    background-color: #30302f;
+    border-radius: 10px;
+    line-height: 170px !important;
+
+}
+
+.close-captcha{
+    color: white !important;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    font-size: 30px;
+}
+
+.btn-captcha{
+    height: 32px !important;
+    line-height: 10px !important;
+    cursor:url(../images/ncsoft/l22.cur),auto !important;
+}
+
+
+
+.vip a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.3;
+    font-family: Cinzel;
+}
+
+.vip a:hover{
+    opacity: 0.9;
+}
+.vip{
+    float: right;
+    margin-top: 100px;
+}

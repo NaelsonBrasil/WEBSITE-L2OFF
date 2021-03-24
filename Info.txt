@@ -1,0 +1,37 @@
+Delete a database lin2world,lin2db e sqloff porque se voc� deletar 1 char os id podem ficar desordenado.
+Reinicie o cached do servidor assim que adicionar unlock no char.
+
+Precisa criar conta depois um char ADM,GM etc... para ter acesso ao btn de ADM no painel ADMIM
+
+[Ok] Menu life info
+[Ok] System Upload image
+[Ok] System Sent News
+[Ok] System Statistic Amount player today week
+[Ok] Change Nick
+[Ok] Change Email
+[Ok] Announce Server
+[OK] Change Password
+[Ok] Unlock Char
+[Ok] Donate System
+     .Add Item
+     .Donate
+     .Order
+
+[Ok] Gallery
+[Ok] Report bug
+[Ok] Active button access ADM panel
+[OK] Enable System Click
+[OK] Register
+[OK] System protection
+      .XSS
+      .CSRF
+      .Session Hijacking
+      .Random pre-fix username
+      .Protection URL Ajax
+      .Anti Injection
+      .Space empty trim
+      .Html strip_tags
+      .Bar inverted
+      .Captcha
+
+

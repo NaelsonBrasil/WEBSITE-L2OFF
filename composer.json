@@ -1,0 +1,9 @@
+{
+	"config": {
+	  "vendor-dir": "vendor"
+	},
+	"require": {
+	  "paypal/rest-api-sdk-php": "*",
+		"pagseguro/php": "@stable"
+	}
+}

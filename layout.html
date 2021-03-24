@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/sql.jpg"/>
+    <title>Install Database</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <img src="assets/images/l2off.png">
+            <br>
+            <br>
+            <h3>Welcome DashBoard install</h3>
+            <br>
+            <article><p class="text-info">Make sure database, example lin2off.sql,lin2world.sql etc... was created and executed before of start configuration.</p></article>
+           <section style="width: 50%; margin: 50px auto">
+
+               <form  method="post" action="index.php">
+
+                   <!--database db-->
+                   <div class="form-group">
+                       <label for="db">Database Default: <strong>lin2db</strong></label>
+                       <input type="text" name="lin2db" class="form-control" id="db"   required value="lin2db"  maxlength="20">
+                   </div>
+
+                   <!--database word-->
+                   <div class="form-group">
+                       <label for="word">Database Default: <strong>lin2world</strong></label>
+                       <input type="text" name="lin2world" class="form-control" id="word"  required value="lin2world"  maxlength="20">
+                   </div>
+
+                   <!--database lin2off-->
+                   <div class="form-group">
+                       <label for="webDb">Database Default: <strong>lin2off</strong></label>
+                       <input type="text" name="lin2off" class="form-control" id="webDb"  required value="lin2off"  maxlength="20">
+                   </div>
+
+                   <!--Base Url-->
+                   <div class="form-group">
+                       <label for="url">Base Url Example: http://vipcriativo.com/<strong>Directory</strong></label>
+                       <input type="text" name="url" class="form-control" id="url" required maxlength="50">
+                   </div>
+
+                   <!--Drive Sql Server-->
+                   <div class="form-group">
+                       <label for="drive">DriveType Default: <strong>sqlsrv</strong></label>
+                       <input type="text" name="drive" class="form-control" id="drive"   required value="sqlsrv" maxlength="11">
+                   </div>
+
+                   <!--IpConnection-->
+                   <div class="form-group">
+                       <label for="ip-connection">Ip your machine where this sql server. Local Host Default: <strong>127.0.0.1</strong></label>
+                       <input type="text" name="ip" class="form-control" id="ip-connection"   required value="127.0.0.1" maxlength="11">
+                   </div>
+
+                   <!--User-->
+                   <div class="form-group">
+                       <label for="user">Instance name Default: <strong>sa</strong></label>
+                       <input type="text" name="user" class="form-control" id="user" required value="sa" maxlength="11">
+                   </div>
+
+                   <!--Password-->
+                   <div class="form-group">
+                       <label for="password">Password Sql Server<strong></strong></label>
+                       <input type="text" name="password" class="form-control" id="password"  required  maxlength="11">
+                   </div>
+
+
+                   <button type="submit" class="btn btn-lg btn-dark">Submit</button>
+               </form>
+           </section>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

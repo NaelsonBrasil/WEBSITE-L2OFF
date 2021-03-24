@@ -1,0 +1,50 @@
+sqlcmd -S localhost -U sa -P YourPassword -Q "SELECT @@VERSION"
+sqlcmd -U SA -P 'Admin123/' -S localhost -d test
+
+sqlcmd -U sa -P Admin123/ -S localhost -d lin2off -i lin2off.sql //Execute
+
+sqlcmd -U sa -P Admin123/ -S localhost -Q "DROP DATABASE test;"
+sqlcmd -U SA -P 'Admin123/' -S localhost -d test -Q "DROP DATABASE test"
+
+systemctl status mssql-server
+
+#1 Password with caracter special
+
+#2 Otimize
+EXEC sp_configure 'show advanced options', 1;
+GO
+RECONFIGURE ;
+GO
+
+EXEC sp_configure 'network packet size'
+
+
+Run32767
+//32767
+
+EXEC sp_configure 'show advanced options', 1;
+GO
+RECONFIGURE ;
+GO
+EXEC sp_configure 'network packet size', 8192 ;
+GO
+RECONFIGURE;
+GO
+
+cd /etc/apache2/mods-enabled/
+sudo a2enmod rewrite
+sudo nano /etc/apache2/apache2.conf
+
+##### Linux Ubuntu #####
+//apache2
+<Directory /var/www/> 
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+
+
+
+
+
+
